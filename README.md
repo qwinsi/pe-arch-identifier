@@ -34,8 +34,10 @@ If you are using Linux or macOS, there's need to use third-party tools. Just use
 ```shell
 $ file samples/helloworld-i386.exe
 helloworld-i386.exe: PE32 executable (console) Intel 80386, for MS Windows
-$ python pe_arch.py samples/helloworld-amd64.exe
+$ file samples/helloworld-amd64.exe
 helloworld-amd64.exe: PE32+ executable (console) x86-64, for MS Windows
-$ python pe_arch.py samples/helloworld-arm64.exe
+$ file samples/helloworld-arm64.exe
 helloworld-arm64.exe: PE32+ executable (console) Aarch64, for MS Windows
+$ file HELLO.EXE
+HELLO.EXE: MS-DOS executable
 ```
