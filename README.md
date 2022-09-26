@@ -29,7 +29,7 @@ pip install pefile
 
 ## Extra Information
 
-If you are using Linux or macOS, there's need to use third-party tools. Just use the powerful built-in `file` command.
+If you are using Linux or macOS, there's no need to use third-party tools. Just use the powerful built-in `file` command.
 
 ```shell
 $ file samples/helloworld-i386.exe
