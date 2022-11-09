@@ -41,3 +41,4 @@ helloworld-arm64.exe: PE32+ executable (console) Aarch64, for MS Windows
 $ file HELLO.EXE
 HELLO.EXE: MS-DOS executable
 ```
+Additionally, the `file` command has also been ported to Windows. See [julian-r/file-windows](https://github.com/julian-r/file-windows).
